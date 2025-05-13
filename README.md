@@ -1,0 +1,11 @@
+## PUPILLOMETRY AND BRAIN DYNAMICS FOR COGNITIVE LOAD IN WORKING MEMORY
+### By Nusaibah Farrukh
+
+This thesis investigates the use of pupillometry and electroencephalography (EEG) data to evaluate cognitive load under varied working memory demands. Understanding and evaluating cognitive load is critical in fields such as neuroscience, education, human-computer interaction, and neuropsychiatry. Cognitive load, defined as the mental effort expended in working memory, has a significant impact on performance and learning outcomes in clinical and real-world settings. While EEG gives high-resolution insights into brain processes, its limited wearability and expense prevent scalable application.  In contrast, pupillometry provides a non-invasive, cost-effective, and portable alternative for monitoring cognitive state, making it appealing for real-world applications.
+
+Using the OpenNeuro Digit Span Task dataset, this study created a unified processing pipeline that included preprocessing, epoching, feature extraction with the Catch-22 library, and classification with both traditional machine learning and deep learning models. Classification tasks were based on binary distinctions ("Just Listen" vs. "Memory") and multiclass scenarios ("varying memory loads").
+
+Model performance was assessed using both pupillometry-pupil diameter dilation and EEG modalities, with accuracy comparisons showing the strengths and limitations of each signal. Feature importance analysis and various result evaluation metrices provided additional insights into model behaviour and signal relevance. The results suggest the viability of using pupillometry as a lightweight proxy for EEG in cognitive load detection, which has implications for adaptive learning systems, real-time workload monitoring, and brain-computer interface design. This study emphasises the utility of multimodal physiological data in improving the robustness and accessibility of cognitive state assessment systems.
+
+Keywords: Pupillometry, Electroencephalography (EEG), Cognitive Load, Working Memory, Cognitive
+State Classification, Machine Learning, Deep Learning.
